@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(208, 231, 245);
+}
+
+.sub-container {
+    background-color: rgb(247, 245, 245);
+    padding: 60px;
+    width: 50vw;
+    margin: auto;
+    height: 60vh;
+    margin-top: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+    margin-bottom: 100px;
+}
+
+.title {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    line-height: 1px;
+    color: rgb(7, 7, 70);
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.task-adder {
+    display: flex;
+    gap: 20px;
+    border: 2px solid black;
+    padding: 30px;
+    background-color: #ccc;
+}
+
+.task-adder #task-input {
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 1rem;
+    padding-left: 10px;
+}
+
+.task-adder #add-button {
+    height: auto;
+    padding: 0 40px;
+    background-color: rgb(24, 24, 132);
+    color: white;
+    border: none;
+    font-size: 1rem;
+    border-radius: 3px;
+}
+
+.task-adder #add-button:hover {
+    background-color: blue;
+    border-radius: none;
+}
