@@ -7,6 +7,7 @@ body {
     background-color: rgb(208, 231, 245);
 }
 
+/* Styling for the sub-container */
 .sub-container {
     background-color: rgb(247, 245, 245);
     padding: 30px;
@@ -19,6 +20,7 @@ body {
     margin-bottom: 100px;
 }
 
+/* Styling for the title */
 .title {
     text-align: center;
     text-transform: capitalize;
@@ -29,6 +31,7 @@ body {
     letter-spacing: 2px;
 }
 
+/* Styling for the task adder */
 .task-adder {
     display: flex;
     gap: 20px;
@@ -79,12 +82,36 @@ body {
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(20, 3, 3, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
 }
 .task-added label {
     font-size: 1.12em;
     font-weight: 600;
-    text-align: center;
+    width: 200px;
 }
+.task-added:hover {
+    transform: scale(1.1);
+}
+
+/* Styling for the icons */
+.icons {
+    margin-left: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.icons #edit-button:hover {
+    color: blue;
+}
+.icons #delete-button:hover {
+    color: blue;
+}
+.icons #done-button:hover {
+    color: blue;
+}
+
 /* Stlying for the scroll bar */
 .task-added-menu::-webkit-scrollbar {
     width: 20px;
@@ -112,4 +139,7 @@ body {
     border: none;
     font-size: 1rem;
     border-radius: 3px;
+}
+.complete-button button:hover {
+    background-color: blue;
 }
