@@ -187,7 +187,7 @@ body {
 .task-adder #add-button {
     height: auto;
     padding: 5px 13px;
-    background-color: rgb(220, 220, 225);
+    background-color: black;
     color: white;
     border: none;
     font-size: 1rem;
