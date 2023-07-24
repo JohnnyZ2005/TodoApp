@@ -1,149 +1,5 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-/*body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    background-color: rgb(208, 231, 245);
-}
-
-
-.sub-container {
-    background-color: rgb(247, 245, 245);
-    padding: 30px;
-    width: 50vw;
-    margin: auto;
-    min-height: 40px;
-    margin-top: 100px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 4px;
-    margin-bottom: 100px;
-}
-
-
-.title {
-    text-align: center;
-    text-transform: capitalize;
-    font-size: 1.7rem;
-    line-height: 1px;
-    color: rgb(7, 7, 70);
-    font-weight: bolder;
-    letter-spacing: 2px;
-}
-
-
-.task-adder {
-    display: flex;
-    gap: 20px;
-    border: 2px solid black;
-    padding: 30px;
-    background-color: #ccc;
-    border-radius: 10px;
-}
-
-.task-adder #task-input {
-    width: 500px;
-    height: 40px;
-    border-radius: 5px;
-    border: 1px solid black;
-    font-size: 1rem;
-    padding-left: 10px;
-}
-
-.task-adder #add-button {
-    height: auto;
-    padding: 0 40px;
-    background-color: rgb(24, 24, 132);
-    color: white;
-    border: none;
-    font-size: 1rem;
-    border-radius: 3px;
-}
-
-.task-adder #add-button:hover {
-    background-color: blue;
-    border-radius: none;
-}
-
-
-.task-added-menu {
-    background-color: white;
-    margin: 20px 0px;
-    padding: 40px;
-    height: 300px;
-    box-shadow: 0 4px 8px 0 rgba(61, 58, 58, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    overflow: scroll;
-    overflow-x: hidden;
-    border-radius: 10px;
-}
-.task-added {
-    background-color: white;
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px 0 rgba(20, 3, 3, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 20px;
-    display: flex;
-    gap: 20px;
-}
-.task-added label {
-    font-size: 1.12em;
-    font-weight: 600;
-    width: 200px;
-}
-.task-added:hover {
-    transform: scale(1.1);
-}
-
-
-.icons {
-    margin-left: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-}
-.icons #edit-button:hover {
-    color: blue;
-}
-.icons #delete-button:hover {
-    color: blue;
-}
-.icons #done-button:hover {
-    color: blue;
-}
-
-
-.task-added-menu::-webkit-scrollbar {
-    width: 20px;
-    border-radius: 10px;
-}
-.task-added-menu::-webkit-scrollbar-track {
-    background: rgba(61, 58, 58, 0.2);
-    border-radius: 10px;
-}
-.task-added-menu::-webkit-scrollbar-thumb {
-    background: rgb(24, 24, 132);
-}
-
-
-.complete-button {
-    display: flex;
-    justify-content: center;
-}
-.complete-button button {
-    height: auto;
-    padding: 20px 40px;
-    background-color: rgb(24, 24, 132);
-    color: white;
-    border: none;
-    font-size: 1rem;
-    border-radius: 3px;
-}
-.complete-button button:hover {
-    background-color: blue;
-} 
- */
-
 /* MOBILE */
 body {
     margin: 0;
@@ -152,254 +8,121 @@ body {
     background-color: rgb(208, 231, 245);
 }
 
-.sub-container .title {
-    margin-top: 50px;
+.sub-container {
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 4px;
+}
+
+.title {
     text-align: center;
     text-transform: capitalize;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     line-height: 1px;
     color: rgb(7, 7, 70);
     font-weight: bolder;
     letter-spacing: 2px;
+    margin-bottom: 20px;
 }
 
 .task-adder {
-    justify-content: center;
     display: flex;
-    gap: 10px;
+    gap: 20px;
     border: 2px solid black;
-    padding: 20px;
-    background-color: #ccc;
+    padding: 10px;
+    background-color: #6fdffa;
     border-radius: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 .task-adder #task-input {
     width: 350px;
     height: 40px;
     border-radius: 5px;
-    border: 1.5px solid black;
-    font-size: 1rem;
-    padding-left: 5px;
+    border: 1.7px solid black;
+    font-size: .8rem;
+    padding-left: 10px;
+    font-weight: bold;
+    background-color: white;
+    font-family: 'Poppins';
 }
 
 .task-adder #add-button {
     height: auto;
     padding: 5px 13px;
-    background-color: black;
+    background-color: rgb(3, 3, 21);
     color: white;
     border: none;
     font-size: 1rem;
     border-radius: 3px;
+    width: auto;
 }
 
 .task-added-menu {
-    background-color: white;
-    margin: 20px 0px;
-    padding: 20px;
+    margin: 30px 0px;
     height: 300px;
     box-shadow: 0 4px 8px 0 rgba(61, 58, 58, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
     overflow: scroll;
     overflow-x: hidden;
-    border-radius: 10px;
+    padding-top: 20p;
 }
 
 .task-added {
-    background-color: white;
-    padding: 10px;
-    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 1px;
+    padding-bottom: 5px;
+    padding-top: 5px;
     box-shadow: 0 4px 8px 0 rgba(20, 3, 3, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 20px;
     display: flex;
-    gap: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
+    gap: 20px;
+    width: 250px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+.task-added label {
+    font-size: .9em;
+    font-weight: 300;
+    width: 200px;
 }
 
 .task-added:hover {
     transform: scale(1.1);
 }
 
-
-.task-added label {
-    font-size: 10px;
-    font-weight: 600;
-    width: 300px;
-}
-
-.icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
-}
-
 .complete-button {
     display: flex;
     justify-content: center;
-    margin-bottom: 5px;
 }
-
 .complete-button button {
     height: auto;
     padding: 20px 40px;
-    background-color: rgb(24, 24, 132);
+    background-color: rgb(3, 3, 21);
     color: white;
     border: none;
     font-size: 1rem;
     border-radius: 3px;
 }
 
-.complete-button button:hover {
-    background-color: blue;
-} 
+footer {
+    height: auto;
+    padding: 10px 40px;
+    background-color: rgb(3, 3, 21);
+    color: white;
+    border: none;
+    font-size: 1rem;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+}
 
-/* For Tablets */
-@media screen and (min-width: 1146px) {
-        body {
-        margin: 0;
-        padding: 0;
-        font-family: 'Poppins', sans-serif;
-        background-color: rgb(208, 231, 245);
-    }
-
-
-    .sub-container {
-        background-color: rgb(247, 245, 245);
-        padding: 30px;
-        width: 50vw;
-        margin: auto;
-        min-height: 40px;
-        margin-top: 100px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        border-radius: 4px;
-        margin-bottom: 100px;
-    }
-
-
-    .title {
-        text-align: center;
-        text-transform: capitalize;
-        font-size: 1.7rem;
-        line-height: 1px;
-        color: rgb(7, 7, 70);
-        font-weight: bolder;
-        letter-spacing: 2px;
-    }
-
-
-    .task-adder {
-        display: flex;
-        gap: 20px;
-        border: 2px solid black;
-        padding: 30px;
-        background-color: #ccc;
-        border-radius: 10px;
-    }
-
-    .task-adder #task-input {
-        width: 500px;
-        height: 40px;
-        border-radius: 5px;
-        border: 1px solid black;
-        font-size: 1rem;
-        padding-left: 10px;
-    }
-
-    .task-adder #add-button {
-        height: auto;
-        padding: 0 40px;
-        background-color: rgb(24, 24, 132);
-        color: white;
-        border: none;
-        font-size: 1rem;
-        border-radius: 3px;
-    }
-
-    .task-adder #add-button:hover {
-        background-color: blue;
-        border-radius: none;
-    }
-
-
-    .task-added-menu {
-        background-color: white;
-        margin: 20px 0px;
-        padding: 40px;
-        height: 300px;
-        box-shadow: 0 4px 8px 0 rgba(61, 58, 58, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        overflow: scroll;
-        overflow-x: hidden;
-        border-radius: 10px;
-    }
-    .task-added {
-        background-color: white;
-        padding: 20px;
-        border-radius: 20px;
-        box-shadow: 0 4px 8px 0 rgba(20, 3, 3, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        margin-bottom: 20px;
-        display: flex;
-        gap: 20px;
-    }
-    .task-added label {
-        font-size: 1.12em;
-        font-weight: 600;
-        width: 200px;
-    }
-    .task-added:hover {
-        transform: scale(1.1);
-    }
-
-
-    .icons {
-        margin-left: 120px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 30px;
-    }
-    .icons #edit-button:hover {
-        color: blue;
-    }
-    .icons #delete-button:hover {
-        color: blue;
-    }
-    .icons #done-button:hover {
-        color: blue;
-    }
-
-
-    .task-added-menu::-webkit-scrollbar {
-        width: 20px;
-        border-radius: 10px;
-    }
-    .task-added-menu::-webkit-scrollbar-track {
-        background: rgba(61, 58, 58, 0.2);
-        border-radius: 10px;
-    }
-    .task-added-menu::-webkit-scrollbar-thumb {
-        background: rgb(24, 24, 132);
-    }
-
-
-    .complete-button {
-        display: flex;
-        justify-content: center;
-    }
-    .complete-button button {
-        height: auto;
-        padding: 20px 40px;
-        background-color: rgb(24, 24, 132);
-        color: white;
-        border: none;
-        font-size: 1rem;
-        border-radius: 3px;
-    }
-    .complete-button button:hover {
-        background-color: blue;
-    } 
-
+.icons {
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 
